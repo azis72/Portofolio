@@ -18,13 +18,5 @@ selectL.addEventListener("click", function() {
       newTr.appendChild(newTd1);
       newTr.appendChild(newTd2);
       table.appendChild(newTr);
-    
-    
   }
-  
-  
-  
-  
-  
-  
 });
