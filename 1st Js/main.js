@@ -8,7 +8,7 @@ selectL.addEventListener("click", function() {
   } else if ( !newName || !newAge || newName == " ") {
   alert("Hadahh.. taikk lu!");
   } else {
-    var newTr = document.createElement("tr");
+    const newTr = document.createElement("tr");
         newTd1 = document.createElement("td");
         newTd2 = document.createElement("td");
         newListName = document.createTextNode(newName);
